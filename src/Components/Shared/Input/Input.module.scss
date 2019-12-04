@@ -1,0 +1,26 @@
+@import "styles/colors";
+
+.input_wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+
+  @media (min-width: 768px) {
+    margin-right: 36px;
+  }
+}
+
+.label_text {
+  color: $whitegrey;
+  font-weight: bold;
+}
+
+.input {
+  height: 40px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.asterisk {
+  color: $red;
+}

@@ -1,0 +1,14 @@
+@import "styles/colors";
+
+.header {
+  background-color: $middlegrey;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+  font-weight: bold;
+  color: $lightgrey;
+}
