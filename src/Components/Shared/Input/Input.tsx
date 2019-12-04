@@ -5,7 +5,7 @@ import styles from './Input.module.scss';
 interface InputProps {
   labelName: string;
   inputType: string;
-  required: boolean;
+  required?: boolean;
   dataField: string;
   handleInputChange: Function;
 }

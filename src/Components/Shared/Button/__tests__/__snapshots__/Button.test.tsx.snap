@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Button /> render button in loading condtion 1`] = `
+<button
+  className="button"
+  onClick={[Function]}
+>
+  <Loader
+    color="white"
+    css={Object {}}
+    loading={true}
+    margin="2px"
+    size={6}
+    sizeUnit="px"
+  />
+</button>
+`;
+
+exports[`<Button /> render button in normal condtion 1`] = `
+<button
+  className="button"
+  onClick={[Function]}
+>
+  test
+</button>
+`;

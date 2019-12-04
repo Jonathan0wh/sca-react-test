@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render Header without crashing 1`] = `
+<header
+  className="header"
+>
+  <div
+    className="container"
+  >
+    <div
+      className="row"
+    >
+      <p
+        className="text"
+      >
+        Subscribe
+      </p>
+    </div>
+  </div>
+</header>
+`;

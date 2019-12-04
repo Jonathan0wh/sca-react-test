@@ -1,0 +1,225 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SubscribeForm /> render form by default 1`] = `
+<form
+  className="form"
+>
+  <div
+    className="container form_container"
+  >
+    <div
+      className="row"
+    >
+      <div
+        className="col-md-6"
+      >
+        <Input
+          dataField="firstName"
+          handleInputChange={[Function]}
+          inputType="text"
+          labelName="First Name"
+          required={true}
+        />
+      </div>
+      <div
+        className="col-md-6"
+      >
+        <Input
+          dataField="lastName"
+          handleInputChange={[Function]}
+          inputType="text"
+          labelName="Last Name"
+          required={true}
+        />
+      </div>
+    </div>
+    <div
+      className="row"
+    >
+      <div
+        className="col-md-6"
+      >
+        <Input
+          dataField="email"
+          handleInputChange={[Function]}
+          inputType="email"
+          labelName="Email"
+          required={true}
+        />
+      </div>
+      <div
+        className="col-md-6"
+      >
+        <Input
+          dataField="mobilePhone"
+          handleInputChange={[Function]}
+          inputType="number"
+          labelName="Mobile Phone"
+          required={false}
+        />
+      </div>
+    </div>
+    <div
+      className="row"
+    >
+      <Button
+        buttonText="Submit"
+        handleClick={[Function]}
+        loading={false}
+      />
+    </div>
+  </div>
+</form>
+`;
+
+exports[`<SubscribeForm /> render form when submitting 1`] = `
+<form
+  className="form"
+>
+  <div
+    className="container form_container"
+  >
+    <div
+      className="row"
+    >
+      <div
+        className="col-md-6"
+      >
+        <Input
+          dataField="firstName"
+          handleInputChange={[Function]}
+          inputType="text"
+          labelName="First Name"
+          required={true}
+        />
+      </div>
+      <div
+        className="col-md-6"
+      >
+        <Input
+          dataField="lastName"
+          handleInputChange={[Function]}
+          inputType="text"
+          labelName="Last Name"
+          required={true}
+        />
+      </div>
+    </div>
+    <div
+      className="row"
+    >
+      <div
+        className="col-md-6"
+      >
+        <Input
+          dataField="email"
+          handleInputChange={[Function]}
+          inputType="email"
+          labelName="Email"
+          required={true}
+        />
+      </div>
+      <div
+        className="col-md-6"
+      >
+        <Input
+          dataField="mobilePhone"
+          handleInputChange={[Function]}
+          inputType="number"
+          labelName="Mobile Phone"
+          required={false}
+        />
+      </div>
+    </div>
+    <div
+      className="row"
+    >
+      <Button
+        buttonText="Submit"
+        handleClick={[Function]}
+        loading={true}
+      />
+    </div>
+  </div>
+</form>
+`;
+
+exports[`<SubscribeForm /> render form with some text entered 1`] = `
+<form
+  className="form"
+>
+  <div
+    className="container form_container"
+  >
+    <div
+      className="row"
+    >
+      <div
+        className="col-md-6"
+      >
+        <Input
+          dataField="firstName"
+          handleInputChange={[Function]}
+          inputType="text"
+          labelName="First Name"
+          required={true}
+        />
+      </div>
+      <div
+        className="col-md-6"
+      >
+        <Input
+          dataField="lastName"
+          handleInputChange={[Function]}
+          inputType="text"
+          labelName="Last Name"
+          required={true}
+        />
+      </div>
+    </div>
+    <div
+      className="row"
+    >
+      <div
+        className="col-md-6"
+      >
+        <Input
+          dataField="email"
+          handleInputChange={[Function]}
+          inputType="email"
+          labelName="Email"
+          required={true}
+        />
+      </div>
+      <div
+        className="col-md-6"
+      >
+        <Input
+          dataField="mobilePhone"
+          handleInputChange={[Function]}
+          inputType="number"
+          labelName="Mobile Phone"
+          required={false}
+        />
+      </div>
+    </div>
+    <div
+      className="row"
+    >
+      <Button
+        buttonText="Submit"
+        handleClick={[Function]}
+        loading={false}
+      />
+    </div>
+  </div>
+</form>
+`;
+
+exports[`<SubscribeForm /> render success message after submitting success 1`] = `
+<div
+  className="succsss_wrapper"
+>
+  Thank you for subscribing!
+</div>
+`;

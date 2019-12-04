@@ -1,0 +1,194 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render the whole App without crashing 1`] = `
+<App>
+  <Header>
+    <header
+      className="header"
+    >
+      <div
+        className="container"
+      >
+        <div
+          className="row"
+        >
+          <p
+            className="text"
+          >
+            Subscribe
+          </p>
+        </div>
+      </div>
+    </header>
+  </Header>
+  <SubscribeForm>
+    <form
+      className="form"
+    >
+      <div
+        className="container form_container"
+      >
+        <div
+          className="row"
+        >
+          <div
+            className="col-md-6"
+          >
+            <Input
+              dataField="firstName"
+              handleInputChange={[Function]}
+              inputType="text"
+              labelName="First Name"
+              required={true}
+            >
+              <div
+                className="input_wrapper"
+              >
+                <label
+                  className="label_text"
+                  htmlFor="input-First Name"
+                >
+                  First Name
+                   
+                  <span
+                    className="asterisk"
+                  >
+                    *
+                  </span>
+                </label>
+                <input
+                  className="input"
+                  id="input-First Name"
+                  onChange={[Function]}
+                  required={true}
+                  type="text"
+                />
+              </div>
+            </Input>
+          </div>
+          <div
+            className="col-md-6"
+          >
+            <Input
+              dataField="lastName"
+              handleInputChange={[Function]}
+              inputType="text"
+              labelName="Last Name"
+              required={true}
+            >
+              <div
+                className="input_wrapper"
+              >
+                <label
+                  className="label_text"
+                  htmlFor="input-Last Name"
+                >
+                  Last Name
+                   
+                  <span
+                    className="asterisk"
+                  >
+                    *
+                  </span>
+                </label>
+                <input
+                  className="input"
+                  id="input-Last Name"
+                  onChange={[Function]}
+                  required={true}
+                  type="text"
+                />
+              </div>
+            </Input>
+          </div>
+        </div>
+        <div
+          className="row"
+        >
+          <div
+            className="col-md-6"
+          >
+            <Input
+              dataField="email"
+              handleInputChange={[Function]}
+              inputType="email"
+              labelName="Email"
+              required={true}
+            >
+              <div
+                className="input_wrapper"
+              >
+                <label
+                  className="label_text"
+                  htmlFor="input-Email"
+                >
+                  Email
+                   
+                  <span
+                    className="asterisk"
+                  >
+                    *
+                  </span>
+                </label>
+                <input
+                  className="input"
+                  id="input-Email"
+                  onChange={[Function]}
+                  required={true}
+                  type="email"
+                />
+              </div>
+            </Input>
+          </div>
+          <div
+            className="col-md-6"
+          >
+            <Input
+              dataField="mobilePhone"
+              handleInputChange={[Function]}
+              inputType="number"
+              labelName="Mobile Phone"
+              required={false}
+            >
+              <div
+                className="input_wrapper"
+              >
+                <label
+                  className="label_text"
+                  htmlFor="input-Mobile Phone"
+                >
+                  Mobile Phone
+                   
+                </label>
+                <input
+                  className="input"
+                  id="input-Mobile Phone"
+                  onChange={[Function]}
+                  required={false}
+                  type="number"
+                />
+              </div>
+            </Input>
+          </div>
+        </div>
+        <div
+          className="row"
+        >
+          <Button
+            buttonText="Submit"
+            handleClick={[Function]}
+            loading={false}
+          >
+            <button
+              className="button"
+              onClick={[Function]}
+            >
+              Submit
+            </button>
+          </Button>
+        </div>
+      </div>
+    </form>
+  </SubscribeForm>
+</App>
+`;

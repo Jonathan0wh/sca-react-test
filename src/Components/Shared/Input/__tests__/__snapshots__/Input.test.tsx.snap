@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Input /> render Input as normal (not required) 1`] = `
+<div
+  className="input_wrapper"
+>
+  <label
+    className="label_text"
+    htmlFor="input-test"
+  >
+    test
+     
+  </label>
+  <input
+    className="input"
+    id="input-test"
+    onChange={[Function]}
+    type="text"
+  />
+</div>
+`;
+
+exports[`<Input /> render Input as required 1`] = `
+<div
+  className="input_wrapper"
+>
+  <label
+    className="label_text"
+    htmlFor="input-test"
+  >
+    test
+     
+    <span
+      className="asterisk"
+    >
+      *
+    </span>
+  </label>
+  <input
+    className="input"
+    id="input-test"
+    onChange={[Function]}
+    required={true}
+    type="text"
+  />
+</div>
+`;
